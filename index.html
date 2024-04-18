@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noura</title>
   <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "0oTSLJowEQhhjwcKy",
+      });
+   })();
+</script>
 </head>
 
 <body>
@@ -85,7 +95,7 @@
 
   </div>
 
-  <div class="line-1"></div>
+ 
 
   <!--about-->
   <div id="about">
@@ -107,7 +117,7 @@
 
       </div>
     </div>
-
+ <!--skills-->
     <div class="skill-conatiner">
       <h2 class="slills-text">My Skills</h2>
 
@@ -140,82 +150,42 @@
 
   </div>
 
-  <!--skills-->
+ 
 
-  <!------SKILL SECTION------>
-
-
-
-  <!--<section class="skills" id="skills">
-    <h2 class="section-heading">Skill</h2>
-    <div class="container">
-      <div class="profile">
-      <img class="img" src="./img/skills/html.jpg" alt=""/><span class="name">HTML </span>
-      </div>
-      <div class="profile">
-        <img class="img" src="./img/skills/cssS.jpg" alt=""/><span class="name">CSS</span>
-      </div>
-      <div class="profile">
-          <img  class="img"src="./img/skills/jsss.jpg" alt=""/><span class="name">JS</span>
-        </div>
-  
-      </div>
-    </div>
-  </section>-->
 
 
   <!-- Projects -->
+
   <div class="project-container" id="projects">
+<h1>Project</h1>
+    <section class="project">
+      <article class="">
+        <h2>Smart Cube Company</h2>
+        <img  width="100%" height="300px" src="./img/project/cartton.jpg" alt="ads-image">
+        <p>Logo and identity system, brand guideline.</p>
+        <a href="https://github.com/i7797/search/tree/main/src" ></a>
+      </article>
+      <article>
+        <h2>Compony</h2>
+        <img  width="100%" height="300px" src="./img/project/compony.jpg" alt="ads-image">
+        <p>Logo and identity system, brand guideline.</p>
+        <a href="https://github.com/i7797/compony" ></a>
+      </article>
+      <article>
+        <h2>Harry Potter.</h2>
+        <img  width="100%" height="300px" src="./img/project/harry.jpg" alt="ads-image">
+        <p>Logo and identity system, brand guideline.</p>
+        <a href="https://github.com/i7797/harry_potter" ></a>
+      </article>
+    </section>
 
-    <h1 class="h1-project">Projects</h1>
-
-    <div class="project">
-
-
-      <div class="project-image">
-
-        <img src="./img/project/cartooon.JPG" alt="" class="img">
-
-
-        <div class="info">
-          <h2> Description</h2>
-
-          
-        </div>
-      </div>
-
-
-      <div class="project-image">
-
-        <img src="./img/project/copbmw.JPG" alt="" class="img">
-
-
-        <div class="info">
-          <h2> Description</h2>
-        </div>
-      </div>
-      <div class="project-image">
-
-        <img src="./img/project/forma.JPG" alt="" class="img">
-
-
-        <div class="info">
-          <h2> Description</h2>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  </div>
-  </div>
-
+   
   <!--Certificate-->
   <div id="certificate">
 
     <h1 class="h1-certificate">Certificate</h1>
     <div class="cards-contaner">
-      <div class="card">
+      <!--<div class="card">
         <img src="./img/certificate/introdicion.jpg" alt="" class="card-img">
         <h1>INTRO-FRONT-END</h1>
 
@@ -232,6 +202,7 @@
             href="https://www.coursera.org/account/accomplishments/certificate/62B7T8E3LDUG">Certificate</a></button>
 
       </div>
+      -->
       <div class="card">
         <img src="./img/certificate/js.jpg" alt=" " class="card-img">
         <h1>JAVA SCRIPT</h1>
@@ -265,7 +236,7 @@
 
       <div class="form-container">
         <h2>Your Details</h2>
-        <form action="#" method="POST">
+        <form onsubmit="sendEmail ()">
 
 
           <input placeholder="Name: " class="input" type="text" id="name" name="name" required>
@@ -274,7 +245,7 @@
           <input placeholder="Email:" class="input" type="email" id="email" name="email" required>
 
 
-          <input placeholder="Phone: " class="input" type="tel" id="phone" name="phone">
+  
 
 
           <textarea placeholder="Message:" class="input" id="message" name="message" rows="4" required></textarea>
@@ -282,26 +253,10 @@
           <button type="submit" class="submit-button">Submit</button>
         </form>
       </div>
-    </div>
-    <section>
-    <footer>
-      
+</div>
+    <!-- footer --> 
+   <footer> <h3>© 2024 Nour Ali Al-Taie</h3></footer>
     
-   
-
-      </footer>
-  
-    <div class="wave wave1"></div>
-    <div class="wave wave2"></div>
-
-    <div class="wave wave3"></div>
-     <div class="wave wave4"></div>
-    </section>
-    
-
-   
-
-
     <script src="./app.js"></script>
 </body>
 
