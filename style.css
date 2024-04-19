@@ -646,38 +646,458 @@ margin-top: 10%;
 
 @media only screen and (max-width: 768px){
 
-
-
-    .list li{
-        display: none;
+  
+    
+    
+    
+     
+    .logo{
+    
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+        border-radius: 100px;
+    }
+    
+    .logo-text{
+        margin-top: 1px;
+        margin-right:100px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .h4-social{
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+    
+      
+        
+    
+        .download{
+            margin-top: 2%;
+            width:300px ;
+            height:70px ;
+           border-radius: 13px;
+           background-color:rgba(64, 51, 89, 0.5);
+        }
+    
+     
+    
+      
+    
+    
+    .about-container{
+     
+      border-color: rgb(255, 255, 255);
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8%;
+      width:  30rem;
+      height:40rem;
+      text-align: center;
+    
+      
+    }
+    
+    .h1-about-me{
+      font-size:30px;
+      font-weight: 100;
+      padding: 20px;
+      }
+    
+      .p-about {
+          font-size: 24px;
+          font-weight: 100;
+          padding: auto;
+    
+      }
+      
+      
+    
+    .slills-text{
+        font-size:30px;
+      text-align: center;
+      margin-top: 22%;
+      padding-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+    
+    .skill{
+      margin-left: auto;
+      margin-right: auto;
+      width:  30rem;
+    
+      border-radius: 13px;
+      border-style: dashed double none;
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #bdb2cd;
+      padding: 20px;
+      box-shadow: 0 4px 10px  #e8dbdb;
+    }
+    
+    .skill li{
+        font-size:30px;
+      
+      
+    }
+    
+    .project{
+     
+      display: grid;
+      grid-template-columns: 80%;
+      gap: 10px;
       
       }
+      
+    
+    
+    .project article{
+    
+      width: 400px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 0.5px solid #b2b3c0;
+      border-radius: 8px;
+      background: #191A2D;
+      box-sizing: border-box;
+      padding: 1rem;
+      color: #fff;
+      box-shadow: 12px 12px 2px 1px rgba(255, 255, 255,0.1);
+    }
+    
+    .cards-contaner{
+        
+        margin-left: auto;
+        margin-right: auto;
+       display: grid;
+       margin-left:2.5 ;
+       grid-template-columns:80%;
+       justify-content: center;
+       gap: 10px;
+         
+     }
+  
+     
+  .card{
+    background-color:rgba(64, 51, 89, 0.5);
+     width: 400px;
+     padding: 4px ;
+     border-radius: 14px;
+     transition:  transform 0.5s ease , background-color 0.4s  ease;
+     gap:20px;
+  }
+  
+  .card-img{
+    width:50%;
+    border-radius: 14px;
+    height: 250px;
+    margin-bottom: 7px;
+    object-fit: cover;
+  }
 
-      .list{
-          margin: auto;
+  
+  
+  #section-logo{
+      display: flex;
+  }
+  
+    
+    .form-container {
+      width: 420px;
+      margin-left: auto;
+      margin-right: auto;
+    
+       border-radius:10px;
+       
+    }
+    .form-container button {
+      margin-left:88%;
+     
+    
+    }
+
+    
+}
+
+@media only screen and (max-width: 1280px){
+ 
+    .burger-menue{
+        display: block;
+    
+        }
+    
+    
+    
+    
+      #section-logo{
+          display:block;
         
       }
-
-      .burger-menue{
-      display: block;
-     
-
+      .header-text{
+          margin-left: 30px;
       }
-
-
-
-
+    
+      /**/ 
+    
+    .h1-about-me{
+      font-size:100px;
+     
+      padding: 10px;
+     
+      }
+    
+      #header{
+          width: 100%;
+          height: 60vh;
+         
+      
+      }
+      
+    
+      .cards-contaner{
+        
+          margin-left: auto;
+          margin-right: auto;
+         display: grid;
+         margin-left:2.5 ;
+         
+         grid-template-columns: 45% 45%;
+         justify-content: center;
+         gap: 10px;
+           
+       }
+    
+       
+    .card{
+      background-color:rgba(64, 51, 89, 0.5);
+       width: 550px;
+       padding: 4px ;
+       border-radius: 14px;
+       transition:  transform 0.5s ease , background-color 0.4s  ease;
+       gap:10px;
+    }
+    
+    .card-img{
+      width:100%;
+      height: 70%;
+      border-radius: 14px;
+      height: 250px;
+      margin-bottom: 7px;
+      object-fit: fill;
+    }
+    
+    
+    
     #section-logo{
-        display:block;
+        display: flex;
+    }
+    
+    .logo{
+    
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+        border-radius: 100px;
+    }
+    
+    .logo-text{
+        margin-top: 1px;
+        margin-right:100px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .h4-social{
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+    
+      
+        
+    
+        .download{
+            margin-top: 2%;
+            width:300px ;
+            height:70px ;
+           border-radius: 13px;
+           background-color:rgba(64, 51, 89, 0.5);
+        }
+    
+     
+    
+      
+    
+    #about{
+      display: inline;
+    }
+    .about-container{
+     
+      border-color: rgb(255, 255, 255);
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8%;
+      width:  45rem;
+      height:45rem;
+      text-align: center;
+    
       
     }
-    .header-text{
-        margin-left: 30px;
+    
+    .h1-about-me{
+      font-size:40px;
+      font-weight: 100;
+      padding: 20px;
+      }
+    
+      .p-about {
+          font-size: 29px;
+          font-weight: 100;
+          padding: auto;
+    
+      }
+      
+      
+    
+    .slills-text{
+        font-size:30px;
+      text-align: center;
+      margin-top: 22%;
+      padding-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    
     }
+    
+    .skill{
+      margin-left: auto;
+      margin-right: auto;
+      width:  50rem;
+    
+      border-radius: 13px;
+      border-style: dashed double none;
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #bdb2cd;
+      padding: 20px;
+      box-shadow: 0 4px 10px  #e8dbdb;
+    }
+    
+    .skill li{
+        font-size:30px;
+      
+      
+    }
+    
+    .project{
+     
+      display: grid;
+      grid-template-columns: 45% 45%;
+      gap: 20px;
+      
+      }
+      
+    
+    
+    .project article{
+    
+      width: 35rem;
+      height: 35rem;
+      gap: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 0.5px solid #b2b3c0;
+      border-radius: 8px;
+      background: #191A2D;
+      box-sizing: border-box;
+      padding: 1rem;
+      color: #fff;
+      box-shadow: 12px 12px 2px 1px rgba(255, 255, 255,0.1);
+    }
+    
+    
+    
+    .form-container {
+      width: 820px;
+     
+      margin-left: auto;
+      margin-right: auto;
+    
+       border-radius:10px;
+       
+    }
+    .form-container button {
+      margin-left:88%;
+     
+    
+    }
+        
+    }
+    
+    
+    
+    @media only screen and (max-width: 1536px) {
+       
+    .list li{
+            display: block;
+          
+          }
+          .list{
+              margin: auto;
+              position: relative;
+              left:-60px
+          }
+          .burger-menue{
+          display: none;
+          }
+          .logo-text{
+            margin-top: 14%;
+            font-size: 17px;
+        }
+          
+    
+        .cards-contaner{
+        
+          
+            justify-items: center;
+            gap: 10px;
+            
+         
+          }
+          
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    
+    
+    .burger-menue{
+    display: block;
+
+    }
+
+
+
+
+  #section-logo{
+      display:block;
+    
+  }
+  .header-text{
+      margin-left: 30px;
+  }
+
   /**/ 
 
 .h1-about-me{
-  font-size:50px;
+  font-size:100px;
  
   padding: 10px;
  
@@ -697,29 +1117,70 @@ margin-top: 10%;
       margin-right: auto;
      display: grid;
      margin-left:2.5 ;
-     grid-template-columns: 80%;
+     grid-template-columns: 45% 45%;
      justify-content: center;
      gap: 10px;
        
    }
-   .logo-text{
-      margin-top: 14%;
-  text-align: center;
-      font-size: 17px;
-      
-  }
-   #logo{
-      display:block;
-      width: 300px ;
-      height: 300px;
-      justify-items: center;
-      border-radius: 100px;
-    } 
 
-/*.logo{
- display: none;
+   
+.card{
+  background-color:rgba(64, 51, 89, 0.5);
+   width: 350px;
+   padding: 4px ;
+   border-radius: 14px;
+   transition:  transform 0.5s ease , background-color 0.4s  ease;
+   gap:10px;
 }
-*/
+
+.card-img{
+  width:100%;
+  border-radius: 14px;
+  height: 250px;
+  margin-bottom: 7px;
+  object-fit: cover;
+}
+
+
+
+#section-logo{
+    display: flex;
+}
+
+.logo{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    border-radius: 100px;
+}
+
+.logo-text{
+    margin-top: 1px;
+    margin-right:100px;
+    text-align: center;
+    font-size: 60px;
+}
+.h4-social{
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+  
+    
+
+    .download{
+        margin-top: 2%;
+        width:300px ;
+        height:70px ;
+       border-radius: 13px;
+       background-color:rgba(64, 51, 89, 0.5);
+    }
+
+ 
+
+  
+
 #about{
   display: inline;
 }
@@ -730,33 +1191,30 @@ margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 8%;
-  width:  27rem;
-  height:400px;
+  width:  40rem;
+  height:40rem;
   text-align: center;
 
   
 }
 
 .h1-about-me{
-  font-size: 30px;
+  font-size:30px;
   font-weight: 100;
   padding: 20px;
   }
-  
-  
-  
-  
-  
-  
+
   .p-about {
-      font-size: 15px;
+      font-size: 24px;
       font-weight: 100;
-      padding: 20px;
+      padding: auto;
+
   }
   
   
 
 .slills-text{
+    font-size:30px;
   text-align: center;
   margin-top: 22%;
   padding-bottom: 20px;
@@ -768,7 +1226,8 @@ margin-top: 10%;
 .skill{
   margin-left: auto;
   margin-right: auto;
-  width:  25rem;
+  width:  40rem;
+
   border-radius: 13px;
   border-style: dashed double none;
   margin-bottom: 60px;
@@ -780,19 +1239,15 @@ margin-top: 10%;
 }
 
 .skill li{
-  margin-top: 20px ;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  list-style: none;
-  padding: 10px;
+    font-size:30px;
+  
   
 }
 
 .project{
  
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 45% 45%;
   gap: 20px;
   
   }
@@ -801,7 +1256,7 @@ margin-top: 10%;
 
 .project article{
 
-  width: 25rem;
+  width: 23rem;
   height: 30rem;
   margin-left: auto;
   margin-right: auto;
@@ -815,53 +1270,23 @@ margin-top: 10%;
 }
 
 
-  
-  
- 
-  
-
-
-.img {
-  width: 30%;
-  height: 100%;
-  object-fit:cover;
-  transform-origin:center;
-  transition:0.5s;
-  border-radius: 13px;
-}
-
-
 
 .form-container {
-  width: 500px;
+  width: 620px;
   margin-left: auto;
   margin-right: auto;
-   padding:20px;
+
    border-radius:10px;
    
 }
 .form-container button {
-  margin-left:82%;
+  margin-left:88%;
  
 
 }
-
-
-
-
-
     
 }
 
-
-@media only screen and (max-width: 1024px){
-    
-}
-
-
-@media only screen and (max-width: 1280px){
-
-}
 
 
 @media only screen and (max-width: 1536px) {
@@ -937,7 +1362,7 @@ margin-top: 10%;
     top:50%;
     left:20% 
 }
-}
+
 
 #div7{
     top:40%;
@@ -982,10 +1407,7 @@ margin-top: 10%;
    animation: ani-2 2s linear infinite;
 }
 
-    .navbar{
-      
-      }  
-
+   
 
     .list li{
         display: none;
@@ -1060,24 +1482,34 @@ margin-top: 10%;
 }
 
 
-     .logo-text{
-        margin-top: 14%;
-        text-align: center;
-        font-size: 17px;
-        
+    
+   
+
+#section-logo{
+    margin-bottom: 30%;
+   
+ }
+    .logo{
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+   
+      border-radius: 100px;
     }
-     #logo{
-        display:block;
-        width: 250px ;
-        height: 250px;
-        justify-items: center;
-        border-radius: 100px;
-      } 
-
-.logo{
-   display: none;
-}
-
+    .logo-text{
+        text-align: center;
+        font-size: 10px; 
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    .download{
+        width:200px ;
+        height:40px ;
+    }
+    .social{
+        margin-top: 0;
+    }
 #about{
     display: inline;
 }
@@ -1167,28 +1599,10 @@ margin-top: 10%;
     box-shadow: 12px 12px 2px 1px rgba(255, 255, 255,0.1);
   }
 
-
-    
-    
-   
-    
-
- 
-.img {
-    width: 30%;
-    height: 100%;
-    object-fit:cover;
-    transform-origin:center;
-    transition:0.5s;
-    border-radius: 13px;
-  }
-
-
-
   .form-container {
     width: 320px;
     margin-left: auto;
- margin-right: auto;
+    margin-right: auto;
  
      border-radius:10px;
      
@@ -1200,5 +1614,5 @@ margin-top: 10%;
 }
 
   
-
+}
   
