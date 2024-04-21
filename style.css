@@ -299,6 +299,8 @@ margin-bottom: 2%;
     .social-icon{
      
      margin: 10px;
+     width: 50px;
+     height: 50px;
     }
     .download{
         margin-top: 10%;
@@ -1178,22 +1180,17 @@ font-size: 14px;
 
   }
 
-
-
-
-
-
-
-  
-
   
   @media only screen and (max-width: 700px) {
    
-    .five-pointed-star{
-        display: none;
-    }
     
-   
+    
+    .social-icon{
+     
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+       }
 
     .list li{
         display: none;
@@ -1208,9 +1205,6 @@ font-size: 14px;
      
 
       }
-
-
-
 
     #section-logo{
         display:block;
