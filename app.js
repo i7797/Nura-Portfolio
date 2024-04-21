@@ -8,7 +8,7 @@ function myButton() {
     }
     
 }
-
+/*
 function sendEmail(){
   var params ={
     name:document.getElementById("name").value,
@@ -35,4 +35,4 @@ function sendEmail(){
  
 
  })
- .catch((err)=>console.log(err));
+ .catch((err)=>console.log(err));*/
