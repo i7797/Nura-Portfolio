@@ -83,8 +83,8 @@ body{
     right: -10em;
 }
 #div14{
-    top:1em ;
-    right:50em;
+    top:-11em ;
+    right:60em;
 }
 
 #div15 {
@@ -289,26 +289,24 @@ width: 100%;
     margin-left: 30px;
     padding-bottom: 20px;
 }
+.logo-text p{
+    margin-top: 30px;
+ 
+}
 
 .social{
     background-color: #fff;
-margin-top: 15%;
+
 margin-bottom: 2%;
     }
     
     .social-icon{
      
      margin: 10px;
-     width: 50px;
-     height: 50px;
+     width: 60px;
+     height: 60px;
     }
-    .download{
-        margin-top: 10%;
-        width:300px ;
-        height:50px ;
-       border-radius: 13px;
-       background-color:rgba(64, 51, 89, 0.5);
-    }
+   
 
 /*about*/
 #about{
@@ -418,7 +416,7 @@ font-size: 14px;
     
 }
 .bar{
-    background: #2c2727;
+    background: #ffffff;
     display: block;
     height: 20px;
     border: 1px solid rgba(0,0,0,0.3);
@@ -428,12 +426,12 @@ font-size: 14px;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .bar:hover{
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 25) , 0 10px 10px rgba(0, 0, 0, 22);
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.092) , 0 10px 10px rgba(255, 255, 255, 0.092) ;
 }
 .bar span{
     height: 20px;
     float: left;
-    background: linear-gradient(135deg,rgb(43, 13, 106) 0%,rgb(208, 194, 65) 100%);
+    background: linear-gradient(135deg,rgb(4, 9, 81) 0%,rgb(208, 194, 65) 100%);
 }
 .html{
     width: 90%;
@@ -562,6 +560,7 @@ font-size: 14px;
      width: 300px;
      padding: 4px ;
      border-radius: 14px;
+     box-shadow: 12px 12px 2px 1px rgba(255, 255, 255,0.1);
      transition:  transform 0.5s ease , background-color 0.4s  ease;
      gap:10px;
  }
@@ -677,9 +676,80 @@ font-size: 14px;
 
 @media only screen and (max-width: 1280px){
  
-    .five-pointed-star{
+    #div1 {
+        top: -2em;
+        left: -44em;
+    }
+    
+    #div2 {
         display: none;
     }
+    
+    #div3{
+        top:55em;
+        left:-70em;
+    }
+    
+    #div4 {
+        display: none;
+    }
+    
+    #div5{
+        top:55em;
+        left:-30em; 
+    }
+    
+    
+    #div7 {
+        top: 0em;
+        right: 80em;
+    }
+    
+    #div8{
+        top:85%;
+        left:20%;
+    }
+    
+    #div8 {
+        top: 5em;
+        left: -20em;
+    }
+   
+    #div9 {
+       display: none;
+    }
+
+    #div10 {
+        display: none;
+    }
+    #div19 {
+        top: 40em;
+        left: -20em ;
+    }
+   
+    
+    #div12 {
+        top:-20em;
+        right: 100em;
+    }
+    #div13 {
+        display: none;
+    }
+    #div14{
+        top:1em ;
+        right:50em;
+    }
+    
+    #div15 {
+        top: -15em;
+       right: 30em;
+    }
+    
+    #div16 {
+        top: 30em;
+        right: 60em;
+    }
+   
     
     .burger-menue{
         display: block;
@@ -776,13 +846,7 @@ font-size: 14px;
       
         
     
-    .download{
-        margin-top: 10%;
-        width:300px ;
-        height:50px ;
-       border-radius: 13px;
-       background-color:rgba(64, 51, 89, 0.5);
-    }
+    
 
     
       
@@ -932,6 +996,79 @@ font-size: 14px;
 
 @media only screen and (max-width: 1024px){
     
+    #div1 {
+        top: -2em;
+        left: -44em;
+    }
+    
+    #div2 {
+        display: none;
+    }
+    
+    #div3{
+        top:55em;
+        left:-70em;
+    }
+    
+    #div4 {
+        display: none;
+    }
+    
+    #div5{
+        top:55em;
+        left:-30em; 
+    }
+    
+    
+    #div7 {
+        top: 0em;
+        right: 80em;
+    }
+    
+    #div8{
+        top:85%;
+        left:20%;
+    }
+    
+    #div8 {
+        top: 5em;
+        left: -20em;
+    }
+   
+    #div9 {
+       display: none;
+    }
+
+    #div10 {
+        display: none;
+    }
+    #div19 {
+        top: 40em;
+        left: -20em ;
+    }
+   
+    
+    #div12 {
+        top:-20em;
+        right: 100em;
+    }
+    #div13 {
+        display: none;
+    }
+    #div14{
+        top:1em ;
+        right:50em;
+    }
+    
+    #div15 {
+        top: -15em;
+       right: 30em;
+    }
+    
+    #div16 {
+        top: 30em;
+        right: 60em;
+    }
    
     
     .burger-menue{
@@ -981,7 +1118,7 @@ font-size: 14px;
 
    
 .card{
-  background-color:rgba(64, 51, 89, 0.5);
+    background: #191A2D;
    width: 350px;
    padding: 4px ;
    border-radius: 14px;
@@ -1026,13 +1163,7 @@ font-size: 14px;
   
     
 
-    .download{
-        margin-top: 2%;
-        width:300px ;
-        height:70px ;
-       border-radius: 13px;
-       background-color:rgba(64, 51, 89, 0.5);
-    }
+   
 
  
 
@@ -1183,11 +1314,84 @@ font-size: 14px;
   
   @media only screen and (max-width: 700px) {
    
+    #div1 {
+        top: -45em;
+        left: -9em;
+    }
+    
+    #div2 {
+        display: none;
+    }
+    
+    #div3{
+        top: -15em;
+        left: 6em;
+    }
+    
+    #div4 {
+         top: -45em;
+        left: -9em;
+    }
+    
+    #div5{
+        top: -1em;
+        left: -14em; 
+    }
     
     
+    #div7 {
+        top: -14em;
+        right: 19em;
+    }
+    
+    #div8{
+        top:-26em;
+        right: 18em;
+    }
+    
+    #div8 {
+        top: -45em;
+        left: 15em;
+    }
+   
+    #div9 {
+       display: none;
+    }
+
+    #div10 {
+        display: none;
+    }
+    #div9 {
+        top: 40em;
+        left: -20em ;
+    }
+   
+    
+    #div12 {
+        top:-20em;
+        right: 100em;
+    }
+    #div13 {
+        display: none;
+    }
+    #div14{
+        top: -30em;
+        left: 17em;
+    }
+    
+    #div15 {
+        top: -45em;
+        left: -15em;
+    }
+    
+    #div16 {
+        top:-20em;
+        right: -10em;
+    }
+   
     .social-icon{
      
-        margin: 10px;
+        margin: 5px;
         width: 30px;
         height: 30px;
        }
@@ -1245,7 +1449,7 @@ font-size: 14px;
 
      
  .card{
-    background-color:rgba(64, 51, 89, 0.5);
+    background: #191A2D;
      width: 350px;
      padding: 4px ;
      border-radius: 14px;
@@ -1286,10 +1490,7 @@ font-size: 14px;
       text-align: center;
       font-size: 10px;
   }
-    .download{
-        width:200px ;
-        height:40px ;
-    }
+   
     .social{
         margin-top: 0;
     }
@@ -1336,7 +1537,7 @@ font-size: 14px;
 .skill{
     margin-left: auto;
     margin-right: auto;
-    width:  21rem;
+    width:  19rem;
     border-radius: 13px;
     border-style: dashed double none;
     margin-bottom: 60px;
