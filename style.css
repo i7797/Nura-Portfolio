@@ -47,19 +47,14 @@ body {
 }
 
 #div7 {
-    top: 0em;
-    right: 80em;
+    top: -10em;
+    right: 90em;
+}
+#div8 {
+    top: -16em;
+    left: -1em;
 }
 
-#div8 {
-    top: 85%;
-    left: 20%;
-}
-
-#div8 {
-    top: 5em;
-    left: -20em;
-}
 
 #div19 {
     top: 40em;
@@ -178,7 +173,10 @@ body {
 
 .list li {
     display: none;
-    margin: 0 20px;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
 
@@ -229,7 +227,6 @@ li a:hover:after {
 
     position: relative;
     border: none;
-    cursor: pointer;
     right: 0px;
     background-color: transparent;
 }
@@ -268,7 +265,7 @@ li a:hover:after {
 }
 
 .menu-container a:hover {
-    color: rgb(235, 222, 235);
+    color: rgb(44, 46, 167);
 }
 
 
@@ -481,10 +478,7 @@ li a:hover:after {
     animation: react 3s;
 }
 
-#skills {
 
-    margin-bottom: 19%;
-}
 
 @keyframes html {
     0% {
@@ -526,7 +520,10 @@ li a:hover:after {
     }
 }
 
+#skills {
 
+    margin-bottom: 19%;
+}
 /*project*/
 
 
