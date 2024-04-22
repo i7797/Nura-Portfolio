@@ -346,8 +346,8 @@ li a:hover:after {
     border-radius: 50% 20% / 10% 40%;
 
     margin-top: 8%;
-    width: 40%;
-    height: 70%;
+    width:40rem;
+    height: 25rem;
     text-align: center;
     padding-bottom: 40px;
     padding-top: 10px;
@@ -384,6 +384,7 @@ li a:hover:after {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 20px;
 }
 
 
@@ -1246,7 +1247,7 @@ footer {
         margin-right: auto;
         margin-top: 8%;
         width: 40rem;
-        height: 40rem;
+        height: 30rem;
         text-align: center;
 
 
@@ -1381,9 +1382,402 @@ footer {
 
 }
 
+@media only screen and (max-width: 999px){
+    #div1 {
+        top: -45em;
+        left: -35em;
+    }
+
+    #div2 {
+        display: none;
+    }
+
+    #div3 {
+        top: -75em;
+        left: 15em;
+    }
+
+    #div4 {
+        top: -45em;
+        left: -9em;
+    }
+
+    #div5 {
+        top: -80em;
+        left: -14em;
+    }
+
+
+    #div7 {
+        top: -74em;
+        right: 19em;
+    }
+
+    #div8 {
+        top: -56em;
+        right: 18em;
+    }
+
+    #div8 {
+        top: -65em;
+        left: 15em;
+    }
+
+    #div9 {
+        display: none;
+    }
+
+    #div10 {
+        display: none;
+    }
+
+    #div9 {
+        top: -40em;
+        left: -20em;
+    }
+
+
+    #div12 {
+        top: -30em;
+        right: 100em;
+    }
+
+    #div13 {
+        display: none;
+    }
+
+    #div14 {
+        top: -40em;
+        left: 17em;
+    }
+
+    #div15 {
+        top: -45em;
+        left: -15em;
+    }
+
+    #div16 {
+        top: -25em;
+        right: 30em;
+    }
+    .list li {
+        display: none;
+
+    }
+
+    .list {
+        margin: auto;
+
+    }
+
+    .burger-menue {
+        display: block;
+
+
+    }
+
+    #section-logo {
+       display: block;
+
+    }
+
+    .logo {
+        margin-top: -50px;
+        margin-left: 200px;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 100px;
+    }
+
+    .logo-text {
+        margin-top: -90px;
+        margin-left: 200px;
+        margin-right: auto;
+        width: 50%;
+        margin-right: 150px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .social {
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    #div1 {
+        top: -45em;
+        left: -35em;
+    }
+
+    #div2 {
+        display: none;
+    }
+
+    #div3 {
+        top: -75em;
+        left: 15em;
+    }
+
+    #div4 {
+        top: -45em;
+        left: -9em;
+    }
+
+    #div5 {
+        top: -80em;
+        left: -14em;
+    }
+
+
+    #div7 {
+        top: -74em;
+        right: 19em;
+    }
+
+    #div8 {
+        top: -56em;
+        right: 18em;
+    }
+
+    #div8 {
+        top: -65em;
+        left: 15em;
+    }
+
+    #div9 {
+        display: none;
+    }
+
+    #div10 {
+        display: none;
+    }
+
+    #div9 {
+        top: -40em;
+        left: -20em;
+    }
+
+
+    #div12 {
+        top: -30em;
+        right: 100em;
+    }
+
+    #div13 {
+        display: none;
+    }
+
+    #div14 {
+        top: -40em;
+        left: 17em;
+    }
+
+    #div15 {
+        top: -45em;
+        left: -15em;
+    }
+
+    #div16 {
+        top: -25em;
+        right: 30em;
+    }
+    .list li {
+        display: none;
+
+    }
+
+    .list {
+        margin: auto;
+
+    }
+
+    .burger-menue {
+        display: block;
+
+
+    }
+
+    #section-logo {
+       display: block;
+
+    }
+
+ 
+
+    .cards-contaner {
+
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        margin-left: 2.5;
+        grid-template-columns: 80%;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+
+    .card {
+        background: #191A2D;
+        width: 500px;
+        padding: 4px;
+        border-radius: 14px;
+        transition: transform 0.5s ease, background-color 0.4s ease;
+        gap: 10px;
+    }
+
+    .card-img {
+        width: 100%;
+        border-radius: 14px;
+        height: 250px;
+        margin-bottom: 7px;
+        object-fit: fill;
+    }
+
+
+
+
+
+    #section-logo {
+        margin-bottom: 30%;
+
+    }
+
+    .logo {
+        margin-top: -50px;
+        margin-left: 180px;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 100px;
+    }
+
+    .logo-text {
+        margin-top: -90px;
+        margin-left: 180px;
+        margin-right: auto;
+        width: 50%;
+        margin-right: 100px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .social {
+        margin-top: 0;
+    }
+
+    #about {
+        display: inline;
+    }
+
+    .about-container {
+
+        border-color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+        width: 37rem;
+        height: 350px;
+        text-align: center;
+
+
+    }
+
+    .h1-about-me {
+        font-size: 30px;
+        font-weight: 100;
+        padding: 20px;
+    }
+
+    .p-about {
+        font-size: 13px;
+        font-weight: 100;
+        padding: 30px;
+    }
+
+
+
+    .slills-text {
+        text-align: center;
+        margin-top: 22%;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .skill {
+        margin-left: auto;
+        margin-right: auto;
+        width: 37rem;
+        border-radius: 13px;
+        border-style: dashed double none;
+        margin-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #bdb2cd;
+        padding: 20px;
+        box-shadow: 0 4px 10px #e8dbdb;
+    }
+
+    .skill li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        padding: 10px;
+
+    }
+
+    .project {
+
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+
+    }
+
+
+
+    .project article {
+        width: 35rem;
+        height: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.5px solid #b2b3c0;
+        border-radius: 8px;
+        background: #191A2D;
+        box-sizing: border-box;
+        padding: 1rem;
+        color: #fff;
+        box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .form-container {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+        border-radius: 10px;
+
+    }
+
+    .form-container button {
+        margin-left: 77%;
+
+
+    }
+
+
+
+
+
+}
 
 @media only screen and (max-width: 700px) {
-
     #div1 {
         top: -45em;
         left: -9em;
