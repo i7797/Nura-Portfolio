@@ -15,10 +15,9 @@ body {
     background-color: rgb(10, 36, 48);
 }
 
-
 #div1 {
     top: -2em;
-    left: -44em;
+    left: -64em;
 }
 
 #div2 {
@@ -182,7 +181,7 @@ body {
 }
 
 .list li a {
-    font-size: 1rem;
+    font-size: 20px;
     color: #FFF;
 
 }
@@ -1467,7 +1466,7 @@ footer {
 
     
 .list li a {
-    font-size: 1rem;
+    font-size: 20px;
     color: #FFF;
 
 }
@@ -1776,8 +1775,8 @@ footer {
 
 @media only screen and (max-width: 700px) {
     #div1 {
-        top: -45em;
-        left: -9em;
+        top: -55em;
+        left: -17em;
     }
 
     #div2 {
@@ -1867,7 +1866,7 @@ footer {
 
     
 .list li a {
-    font-size: 7px;
+    font-size: 15px;
     color: #FFF;
 
 }
@@ -2071,4 +2070,18 @@ footer {
     }
 
 
+}
+@media only screen and (max-width: 600px){
+    .list li a {
+        font-size: 10px;
+        color: #FFF;
+    
+    }
+}
+@media only screen and (max-width: 492px){
+    .list li a {
+        font-size: 8px;
+        color: #FFF;
+    
+    }
 }
