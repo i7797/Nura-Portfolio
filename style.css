@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    text-transform: uppercase;
+   
     background-color: rgb(10, 36, 48);
 }
 
@@ -158,9 +158,9 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: screen;
-
+    background-color: #403793d8;
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -169,6 +169,7 @@ body {
 
 .list {
     display: flex;
+    
 }
 
 .list li {
@@ -212,7 +213,7 @@ li a:hover {
 li a:hover:after {
     width: 100%;
 }
-
+/*
 .menu {
 
     margin-top: 15px;
@@ -270,7 +271,7 @@ li a:hover:after {
 
 
 
-
+*/
 
 /*header*/
 /**/
@@ -1026,7 +1027,9 @@ footer {
     .list {
         margin: auto;
         position: relative;
-        left: -80px
+        margin-left: 10px;
+      
+
     }
 
     .burger-menue {
@@ -1133,7 +1136,7 @@ footer {
 
 
     .burger-menue {
-        display: block;
+        display: none;
 
     }
 
@@ -1354,7 +1357,7 @@ footer {
     .list {
         margin: auto;
         position: relative;
-        left: -60px
+       
     }
 
     .burger-menue {
@@ -1458,17 +1461,18 @@ footer {
         right: 30em;
     }
     .list li {
-        display: none;
-
-    }
-
-    .list {
-        margin: auto;
-
-    }
-
-    .burger-menue {
         display: block;
+
+    }
+
+    
+.list li a {
+    font-size: 1rem;
+    color: #FFF;
+
+}
+    .burger-menue {
+        display:none;
 
 
     }
@@ -1479,7 +1483,7 @@ footer {
     }
 
     .logo {
-        margin-top: -50px;
+        margin-top: -20px;
         margin-left: 200px;
         margin-right: auto;
         width: 50%;
@@ -1487,7 +1491,7 @@ footer {
     }
 
     .logo-text {
-        margin-top: -90px;
+        margin-top: -120px;
         margin-left: 200px;
         margin-right: auto;
         width: 50%;
@@ -1581,7 +1585,7 @@ footer {
         right: 30em;
     }
     .list li {
-        display: none;
+        display:block;
 
     }
 
@@ -1590,11 +1594,7 @@ footer {
 
     }
 
-    .burger-menue {
-        display: block;
-
-
-    }
+    
 
     #section-logo {
        display: block;
@@ -1643,7 +1643,7 @@ footer {
     }
 
     .logo {
-        margin-top: -50px;
+        margin-top: -20px;
         margin-left: 180px;
         margin-right: auto;
         width: 50%;
@@ -1651,7 +1651,7 @@ footer {
     }
 
     .logo-text {
-        margin-top: -90px;
+        margin-top: -120px;
         margin-left: 180px;
         margin-right: auto;
         width: 50%;
@@ -1861,17 +1861,19 @@ footer {
     }
 
     .list li {
-        display: none;
+        display:block;
 
     }
 
-    .list {
-        margin: auto;
+    
+.list li a {
+    font-size: 7px;
+    color: #FFF;
 
-    }
+}
 
     .burger-menue {
-        display: block;
+        display:none;
 
 
     }
@@ -1942,7 +1944,7 @@ footer {
     }
 
     .logo {
-        margin-top: -50px;
+        margin-top: -10px;
         margin-left: 100px;
         margin-right: auto;
         width: 50%;

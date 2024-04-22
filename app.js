@@ -1,9 +1,10 @@
-function myButton() {
+/*function myButton() {
     let myMenu=document.getElementById('menu');
     let myContainer=document.getElementsByClassName('menu-container');
 
     if(myMenu.style.display ==='none' ){
         myMenu.style.display='block';
+        myContainer.style.visibility= 'hidden';
         
     }
     else{
